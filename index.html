@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!-- meta tags -->
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Teste, aplicação, processo seletivo">
+        <meta name="author" content="Pedro Leonardo Teixeira">
+        <meta name="description" content="Criando página teste para avaliação no processo seletivo">
+        <meta name="robots" content="index, follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- titulo da página -->
+        <title>Teste do processo seletivo</title>
+
+        <!-- link do arquivo de estilizacao da pagina -->
+        <link rel="stylesheet" type="text/css" href="./style.css">
+
+        <!-- Importação do nivo slider -->
+        <link rel="stylesheet" href="./nivo-slider/themes/default/default.css">
+        <link rel="stylesheet" href="./nivo-slider/nivo-slider.css">
+    </head>
+    <body>
+        <header>
+            <nav class="barra-superior">
+                <ul>
+                    <li>
+                        <span>11 1234-1234</span>
+                    </li>
+                    <li>
+                        <span>11 1234-1234</span>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="menu-header">
+                <a href="#">
+                    <img src="https://www.idealtrends.com.br/imagens/logo-ideal.png" alt="Ideal Trends Slogan">
+                </a>
+                <input type="checkbox" id="btn-menu">
+                <label for="btn-menu">&#9776;</label>
+                <ul>
+                    <li>
+                        <a href="#">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#">EMPRESA</a>
+                            <ul>
+                                <li><a href="#">PRINCÍPIOS</a></li>
+                                <li><a href="#">SOBRE NÓS</a>
+                                    <ul>
+                                        <li><a href="#">NOSSA HISTÓRIA</a></li>
+                                        <li><a href="#">QUEM SOMOS</a></li>
+                                        <li><a href="#">O QUE FAZEMOS</a></li>
+                                        <li><a href="#">UNIDADES</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                    </li>
+                    <li>
+                        <a href="#">CLIENTES</a>
+                    </li>
+                    <li>
+                        <a href="#">CONTATO</a>
+                            <ul>
+                                <li><a href="#">CARREIRAS</a></li>
+                                <li><a href="#">FALE CONOSCO</a></li>
+                            </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- nivio-slider -->
+        <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="./images/poster-video.jpg" data-thumb="/" alt="" title="This is an example of a caption" />
+                <img src="./images/geracao-demanda-projetos.png" " data-thumb="/" alt=""/>
+            </div>
+        </div>
+        <section class="presentation">
+            <img src="./images/Ideal Trends Image.jpg" alt="Grupo ideal trends">
+            <h1>Teste de HTML e CSS</h1>
+            <p>Quesitos de avaliação:</p>
+            <ul>
+                <li><span>Organização do código(Quanto mais limpo melhor)</span></li>
+                <li><span>nivel de detalhismo(quanto mais identico melhor)</span></li>
+                <li><span>Seja sincero ao enviar o tempo gasto</span></li>
+            </ul>
+            <p>Obrigado e boa sorte</p>
+        </section>
+
+        <section class="clear boxes">
+            <h1>BOXES DE DESTAQUE</h1>
+            <nav>
+                <div>
+                    <img src="./images/doutores-da-web.jpg" alt="Doutores da Web">
+                    <span>Especializada na geração de clientes para o mercado industrial 
+                        e fundadora da Tecnologia MPI 
+                        (Marketing de Posicionamento na Internet).</span>
+                    <a href="">visitar</a>
+                </div>
+                <div>
+                    <img src="./images/caminho-ideal.png" alt="Caminho Ideal">
+                    <span>O Grupo Ideal Trends cria uma parceria com o Caminho Ideal,
+                         uma igreja e escola que trabalha as seis áreas da vida:
+                          pessoal, profissional, familiar, social, financeiro e espiritual.</span>
+                    <a href="">visitar</a>
+                </div>
+                <div>
+                    <img src="./images/ideal-marketing.jpg" alt="Ideal Marketing">
+                    <span>Um novo conceito para gerar negócios para a sua empresa. 
+                        Uma plataforma de automação de marketing completa.</span>
+                    <a href="">visitar</a>
+                </div>
+                <div>
+                    <img src="./images/vue-odonto.jpg" alt="Vue Odonto">
+                    <span>Já imaginou obter o sorriso das estrelas?
+                         É isso que a Vue Odonto com a fusão da Sorriso Ideal proporciona para você.
+                          As clínicas contam com profissionais especializados, tratamentos modernos e altamente eficientes.</span>
+                    <a href="">visitar</a>
+                </div>
+            </nav>
+        </section>
+        <footer>
+            <ul>
+                <li>
+                    <a href="#">HOME</a>
+                </li>
+                <li>
+                    <a href="#">EMPRESA</a>
+                </li>
+                <li>
+                    <a href="#">CLIENTES</a>
+                </li>
+                <li>
+                    <a href="#">CONTATO</a>
+                </li>
+            </ul>
+            <p>RODAPE</footer></p>
+        </footer>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="./nivo-slider/jquery.nivo.slider.js"></script>
+        <script type="text/javascript">
+            $(window).load(function() {
+            $('#slider').nivoSlider();
+            });
+        </script>
+    </body>
+</html>
