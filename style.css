@@ -24,7 +24,7 @@ header ul span, .menu-header ul ul a, footer a{
     color: rgb(255, 255,255);
 }
 header li, footer li{
-    width: 100px;
+    margin: 0 3vw;
     text-align: center;
     list-style-type: none;
 }
@@ -129,7 +129,7 @@ footer p{
         grid-template-columns: 1fr 1fr;
     }
 }
-@media(max-width: 650px){
+@media  screen and (max-width: 750px){
     .barra-superior ul{
         display: grid;
     }
