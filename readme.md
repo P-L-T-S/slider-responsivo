@@ -8,7 +8,7 @@
 
 # **:notebook_with_decorative_cover: Sobre:**
 
-Fiz esta página responsiva para um entrevista de emprego na Ideal Trends, onde tive o desafio de criar um slider(uma galeria dinâmica utilizando o nivo-slider) responsivo e algumas fotos na seção do site com o mínimo de divs possível.
+Fiz esta página responsiva para um entrevista de emprego na [Ideal Trends](https://www.idealtrends.com.br/), onde tive o desafio de criar um slider(uma galeria dinâmica utilizando o nivo-slider) responsivo e algumas fotos na seção do site com o mínimo de divs possível.
 
 ---
 
